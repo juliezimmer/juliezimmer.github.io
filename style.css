@@ -1,3 +1,110 @@
-p {
-  color: red;
+/*Color Palette
+#2B4141-Japanese Indigo
+#10A5A5-Light Sea Green
+#34E4EA-turquoise
+#8AB9B5-Pewter Blue
+#C8C2AE-pale silver
+#84EFEF-medium sky blue
+*/
+
+/*Global Styles go in the body*/
+html {
+box-sizing: border-box;
+	}
+*. *:before, *:after{
+box-sizing: inherit;
+}
+
+body {
+    font-family:'Open Sans', sans-serif;
+    margin: 0;
+ }
+h1, h2, h3 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 400;
+    
+}
+h1 {
+  font-size: 80px; 
+  width: 500px;
+  margin-top: 0;
+  white-space:nowrap;    
+    
+}
+h2 {
+    font-size:40px;
+    white-space: nowrap;
+    margin-top: 0;
+}
+h3 {
+    font-size: 20px;
+    
+}
+a {
+  color: crimson;
   }
+
+a:hover{
+ text-decoration: none;
+}
+
+.content-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    overflow: auto;
+}
+.col-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+.col-wide {
+    width: 70%
+    float: left;
+    padding-left: 50px;
+}
+
+/* Both header and Footer styles */
+
+header,footer {
+    background: #2B4141;
+    color: #C8C2AE;
+}
+/* header only styles*/
+.profile-img {
+    border-radius: 10px;
+    margin-right: 30px;
+    
+   }
+
+header h1, header h2, header h3 {
+    color:#84EFEF;
+    margin: 0;
+        }
+
+/* Footer only styles*/
+footer {
+    text-align: center;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;    
+}
+
+/* Work Experience*/
+
+.work {
+    background:#8AB9B5;
+}
+
+.jobs a {
+    
+    padding: 10px;
+    text-align: center;
+}
+/* Education*/
+.education {
+    background:#34E4EA;
+}
