@@ -1,1 +1,1 @@
-# juliezimmer.github.io
+This is a resume webpage that was required as part of Prime Digital Academy's application.  When I started it, I knew NOTHING about CSS, HTML, Git, GitHub or putting something on the web.  GitHub was a fantastical mystery to me. I have cleaned up some of the code, but for historical posterity, I'm going to leave it as it looked when I applied to Prime sometime in late Mrch or early April 2017.
